@@ -44,3 +44,8 @@ Main:
 keyboard shortcuts shortcut - cmd + k + s
     - save all files at once - cmd + option + s
     
+
+Task1:
+    - make more methods in student_Collection
+Task2: 
+    - make two more types of teachers

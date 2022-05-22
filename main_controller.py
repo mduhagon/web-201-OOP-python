@@ -1,5 +1,5 @@
 from models.student import Student
-from models.teachers_types import physics_teacher
+from models import physics_teacher
 from views.school_students import SchoolStudents
 
 student = Student(name="Jyotsna", age=29, class_number=3)
