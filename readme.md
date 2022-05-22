@@ -1,4 +1,4 @@
-classes and objects:
+# Classes & Objects:
 
 ## Instructions to run:
     - fork the repo and clone
