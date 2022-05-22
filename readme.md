@@ -1,5 +1,11 @@
 classes and objects:
 
+## Instructions to run:
+    - fork the repo and clone
+    - run venv (virtual environment) and get pytest into it.
+    - can run tests in the tests folder via terminal / visual studio code IDE
+    - run the application from `python3 main_controller.py`
+
 ## Project School teacher - student Grading.
 
 <h2>SchoolTeacher Class (Parent Class)</h2>
