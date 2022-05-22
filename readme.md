@@ -6,77 +6,69 @@ classes and objects:
     - can run tests in the tests folder via terminal / visual studio code IDE
     - run the application from `python3 main_controller.py`
 
-## Project School teacher - student Grading.
+## Project School Student Grading System
 
-<h2>SchoolTeacher Class (Parent Class)</h2>
-    <ol>
-        <li>name: String</li>
-        <li>put_name()</li>
-        <li>get_name()</li>
-    </ol>
-    - Inherits
-    <ol>
-        <li>TeacherPhysics</li>
-        <li>TeacherChemistry</li>
-    </ol>
+#
 
-<h2>Student</h2>
-    <ul> 
-        <li>name: String</li>
-        <li>age: Number</li>
-        <li>class_number: Number</li>
-        <li>grade: Dict[Subject: Character] or []</li>
-    </ul>
+    MODELS:
+    - SchoolTeacher Class (Parent Class)
+        name: String
+        put_name()
+        get_name()
+        - Inherits:
+        class TeacherPhysics
+        class TeacherChemistry
+    - Student 
+        name: String
+        age: Number
+        class_number: Number
+        grade: Dict[String: Character]| [subject:grade]
+#
+    VIEWS:
+    - StudentDataStorage
+        putStudent()
+        putStudents([])
+        getStudents()
+        getStudentData()
+        getStudentGrades()
     
-<h2>StudentDataStorage</h2>
-    <ul>
-        <li>putStudent()</li>
-        <li>putStudents([])</li>
-        <li>getStudents()</li>
-        <li>getStudentData()</li>
-        <li>getStudentGrades()</li>
-    </ul>
-    
+#
 
-
-<h2>Main:</h2>
-    <ol>
-        <li>Enroll Students</li>
-        <li>Fetch Student Data</li>
-        <li>Enroll Teachers</li>
-        <li>Enlist Syllabus</li>
-        <ol>
+    MAIN:
+        - Enroll Students
+        - Fetch Student Data
+        - Enroll Teachers
+        - Enlist Syllabus
+        
         - class SchoolSubject
-            <li>Syllabus: Dict[Number:String] | chapter_number: Chapter:name</li>
-            <li>put_syllabus()</li>
-            <li>get_syllabus()</li>
-        </ol>
-        <ol>
+          - name
+          - Syllabus: Dict[Number:String] | chapter_number:chapter_name
+          - put_syllabus()
+          - get_syllabus()
         - class PhysicsSubject / ChemistrySubject
-            <li>calculate_grade()</li>
-        </ol>
-        <ol>
-        - Inherits
-            <li>PhysicsSubject</li>
-            <li>ChemistrySubject</li>
-            <li>View Subjetcs</li>
-        </ol>
-    </ol>
+            calculate_grade()
+        - enlist_subjects()
+        - view_subjects()
+        - view_subject_syllabus(subject_name)
+        
+#
+
+# TO-DOs:
+    Task1:
+        - write tests for enroll_students()
+        - in student_collection fetch_all_student_data() (test)
+        - fetch_data_with_student_name() (test)
+    Task2:
+        - make one more type of teacher
+        - enroll teachers
+        - fetch data for all teachers (test)
+        - fetch data via teacher name (test)
+    Task3: (advanced)
+      - create classes and methods for Subjects
+
+#
+
+## keyboard shortcuts shortcut - cmd + k + s
+    save all files at once - cmd + option + s
     
 
-
-keyboard shortcuts shortcut - cmd + k + s</br>
-save all files at once - cmd + option + s
-    
-
-Task1:</br>
-    - write tests for enroll_students()</br>
-    - in student_collection fetch_all_student_data() (test)</br>
-    - fetch_data_with_student_name() (test)</br>
-Task2:</br>
-    - make one more type of teacher</br>
-    - enroll teachers</br>
-    - fetch data for all teachers (test)</br>
-    - fetch data via teacher name (test)</br>
-Task3: (advanced)</br>
-    - create classes and methods for Subjects</br>
