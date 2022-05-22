@@ -5,4 +5,7 @@ class Student:
         self.age = age
         self.class_number = class_number
         self.grade = {}
-        
+
+    def calculate_dob(self, current_year):
+        pass
+
