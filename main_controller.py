@@ -6,6 +6,8 @@ student = Student(name="Jyotsna", age=29, class_number=3)
 SchoolStudents().enroll_student(student)
 SchoolStudents().all_students()
 
+# TODO: put into a view
+# enroll_teachers()
 physics_teacher_1 = physics_teacher.PhysicsTeacher(name="Mia", lab_number="101")
 
 print("Teacher details:")
