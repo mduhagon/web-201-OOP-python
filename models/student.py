@@ -7,5 +7,5 @@ class Student:
         self.grade = {}
 
     def calculate_dob(self, current_year):
-        pass
+        return current_year - self.age
 
