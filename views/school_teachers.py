@@ -1,5 +1,5 @@
 
-# This class is used to store/maintain the collection of teachers in the school.
+#TODO Task2.2: This class is used to store/maintain the collection of teachers in the school.
 class SchoolTeachers:
 
     # constructor for the class
