@@ -55,14 +55,15 @@
 
 # TO-DOs:
     Task1:
-        - write tests for enroll_students()
-        - in student_collection fetch_all_student_data() (test)
-        - fetch_data_with_student_name() (test)
+        - 1.1 write tests for enroll_students()
+        - 1.2 in student_collection fetch_all_student_data() (test)
+        - 1.3 fetch_data_with_student_name() (test)
     Task2:
-        - make one more type of teacher
-        - enroll teachers
-        - fetch data for all teachers (test)
-        - fetch data via teacher name (test)
+        - 2.1 make one more type of teacher
+        - 2.2 collection for teachers and enroll teachers
+        - 2.3 fetch data for all teachers (test)
+        - 2.4 fetch data via teacher name (test)
+  
     Task3: (advanced)
       - create classes and methods for Subjects
 

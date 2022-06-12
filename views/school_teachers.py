@@ -15,10 +15,10 @@ class SchoolTeachers:
     def all_teachers(self):
         pass
             
-    # TODO:implement a func to get all teachers' data
+    # TODO Task2.3: implement a func to get all teachers' data
     def fetch_all_teacher_data(self):
         pass
 
-    # TODO:implement a function get teacher with name
+    # TODO Task2.4: implement a function get teacher with name
     def fetch_data_with_teacher_name(self):
         pass
