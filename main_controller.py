@@ -1,8 +1,9 @@
 from models.student import Student
 from models import physics_teacher
 from views.school_students import SchoolStudents
-
 from models.subject import SchoolSubject
+
+# This file is just for our convenience for now to print and check methods and their behaviour.
 
 # Student is data type / Class is a data type - eg. strings, Int, floats
 student = Student(name="Jyotsna", age=29, class_number=3)
