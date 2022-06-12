@@ -16,3 +16,10 @@ class SchoolStudents:
         for each_student in self.enrolled_students:
             print("Name :" + each_student.name)
             
+    # TODO:implement a func to get all students' data
+    def fetch_all_student_data(self):
+        pass
+
+    # TODO:implement a function get student with name
+    def fetch_data_with_student_name(self):
+        pass
